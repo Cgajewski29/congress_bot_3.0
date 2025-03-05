@@ -1,3 +1,10 @@
-"# congress_bot_3.0" 
-I was wondering if AI could also track Congress in real-time, monitoring their stock trades and the laws they’re working on. Turns out, systems like this already exist, and people are already doing it, but I wanted to build my own version. This program gathers data on what stocks members of Congress are buying, selling, or shorting, similar to OpenInsider. It then analyzes upcoming legislation that could impact the market and uses an API (from AlPaca) to execute trades in milliseconds based on that information. Basically, it's my own automated system that leverages political data for high-speed trading. 
-only issue now is i keep getting an error 500 from quivers server and kindof stuck.
+# Congress Bot 3.0
+A bot that helps analyze and track congress-related data.
+
+## How to use
+1. Clone the repo: `git clone https://github.com/Cgajewski29/congress_bot_3.0.git`
+2. Install dependencies: `pip install -r requirements.txt`
+3. Run the bot: `python congress_bot_3.0.py`
+
+## Contributing
+Feel free to open an issue if you find a bug or have a feature request. Pull requests are welcome!
